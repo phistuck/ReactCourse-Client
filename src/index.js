@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import axios from 'axios';
 
-axios.defaults.baseURL =  'http://914e5464.ngrok.io';
+axios.defaults.baseURL =  '/';
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
